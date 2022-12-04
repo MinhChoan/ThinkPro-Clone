@@ -1,7 +1,57 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-#bodyArea .card:hover{
-    -ms-transform: scale(1.1); /* IE 9 */
+// #header-banner .carousel .carousel-item {
+//   height: 50%;
+//   width: 50%;
+// justify-content: center;
+// }
+
+.body #bodyArea .card:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
+
+#sitckybtn {
+  position: fixed;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  bottom: 0px;
+  right: 20px;
+  z-index: 999;
+}
+
+  #sitckybtn a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+  #sitckybtn a:hover {
+    background-color: rgb(199, 199, 199);
+  }
+
+  #sitckybtn .facebook {
+    background: #3b5998;
+    color: white;
+  }
+
+  #sitckybtn .phone {
+    background: #55acee;
+    color: white;
+  }
+
+  #sitckybtn .github {
+    background: #000000;
+    color: white;
+  }
+
+  #sitckybtn .scrolltop {
+    background: #ff2626;
+    color: white;
+    margin-top: 10px;
+  }
